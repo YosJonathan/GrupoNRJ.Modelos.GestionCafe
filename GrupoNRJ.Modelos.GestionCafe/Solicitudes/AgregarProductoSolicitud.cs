@@ -12,6 +12,8 @@ namespace GrupoNRJ.Modelos.GestionCafe.Solicitudes
             this.Cantidad = 0;
             this.IdGrano = 0;
             this.ValorMinimo = 0;
+            this.Grano = string.Empty;
+            this.NivelTostado = 0;
         }
 
         public string Nombre { get; set; }
@@ -21,5 +23,9 @@ namespace GrupoNRJ.Modelos.GestionCafe.Solicitudes
         public int IdGrano { get; set; }
 
         public double ValorMinimo { get; set; }
+
+        public string Grano { get; set; }
+
+        public int NivelTostado { get; set; }
     }
 }

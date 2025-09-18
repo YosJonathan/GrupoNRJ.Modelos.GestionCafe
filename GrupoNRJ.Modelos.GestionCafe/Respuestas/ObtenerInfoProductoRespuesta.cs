@@ -12,6 +12,7 @@ namespace GrupoNRJ.Modelos.GestionCafe.Respuestas
             this.Nombre = string.Empty;
             this.GranoId = 0;
             this.ValorMinimo = 0;
+            this.NivelTostado = 0;
         }
 
         public int IdProducto { get; set; }
@@ -19,6 +20,8 @@ namespace GrupoNRJ.Modelos.GestionCafe.Respuestas
         public string Nombre { get; set; }
 
         public int GranoId { get; set; }
+
+        public int NivelTostado { get; set; }
 
         public double ValorMinimo { get; set; }
     }
