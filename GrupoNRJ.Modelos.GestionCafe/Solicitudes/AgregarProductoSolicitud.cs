@@ -13,7 +13,7 @@ namespace GrupoNRJ.Modelos.GestionCafe.Solicitudes
             this.IdGrano = 0;
             this.ValorMinimo = 0;
             this.Grano = string.Empty;
-            this.NivelTostado = 0;
+            this.TipoProducto = 0;
         }
 
         public string Nombre { get; set; }
@@ -26,6 +26,6 @@ namespace GrupoNRJ.Modelos.GestionCafe.Solicitudes
 
         public string Grano { get; set; }
 
-        public int NivelTostado { get; set; }
+        public int TipoProducto { get; set; }
     }
 }

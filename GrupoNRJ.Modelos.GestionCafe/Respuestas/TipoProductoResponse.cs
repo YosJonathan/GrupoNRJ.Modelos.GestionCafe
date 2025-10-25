@@ -1,18 +1,18 @@
-﻿// <copyright file="NivelTostadoRespuesta.cs" company="GrupoAnalisis">
+﻿// <copyright file="TipoProductoResponse.cs" company="GrupoAnalisis">
 // Copyright (c) GrupoAnalisis. All rights reserved.
 // </copyright>
 
 namespace GrupoNRJ.Modelos.GestionCafe.Respuestas
 {
-    public class NivelTostadoRespuesta
+    public class TipoProductoResponse
     {
-        public NivelTostadoRespuesta()
+        public TipoProductoResponse()
         {
-            this.IdNivelTostado = 0;
+            this.IdTipoProducto = 0;
             this.Nombre = string.Empty;
         }
 
-        public int IdNivelTostado { get; set; }
+        public int IdTipoProducto { get; set; }
 
         public string Nombre { get; set; }
     }

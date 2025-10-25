@@ -12,7 +12,7 @@ namespace GrupoNRJ.Modelos.GestionCafe.Respuestas
             this.Nombre = string.Empty;
             this.Grano = string.Empty;
             this.Cantidad = 0;
-            this.NivelTostado = string.Empty;
+            this.TipoProducto = string.Empty;
         }
 
         public int IdProducto { get; set; }
@@ -23,6 +23,6 @@ namespace GrupoNRJ.Modelos.GestionCafe.Respuestas
 
         public double Cantidad { get; set; }
 
-        public string NivelTostado { get; set; }
+        public string TipoProducto { get; set; }
     }
 }

@@ -13,6 +13,7 @@ namespace GrupoNRJ.Modelos.GestionCafe.Respuestas
             this.AlertaStock = false;
             this.CantidadMinima = 0;
             this.Existencias = 0;
+            this.Mensaje = string.Empty;
         }
 
         public int IdProducto { get; set; }
@@ -24,5 +25,7 @@ namespace GrupoNRJ.Modelos.GestionCafe.Respuestas
         public double CantidadMinima { get; set; }
 
         public double Existencias { get; set; }
+
+        public string Mensaje { get; set; }
     }
 }
